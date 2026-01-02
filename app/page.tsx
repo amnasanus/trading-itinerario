@@ -181,7 +181,7 @@ const content = {
       name: "Full name",
       email: "Email address",
       location: "City + country",
-      dates: "Preferred dates",
+      dates: "Preferred date",
       goal: "Primary goal",
       capital: "Capital range",
       accommodation: "Accommodation type",
@@ -325,7 +325,7 @@ const content = {
       name: "Nome completo",
       email: "Email",
       location: "Città + paese",
-      dates: "Date preferite",
+      dates: "Data preferita",
       goal: "Obiettivo principale",
       capital: "Capitale",
       accommodation: "Tipo alloggio",
@@ -820,7 +820,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>{copy.form.dates}</FormLabel>
                           <FormControl>
-                            <Input {...field} placeholder="Oct 5 - Nov 2" />
+                          <Input {...field} type="date" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
